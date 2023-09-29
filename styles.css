@@ -67,15 +67,15 @@ img[src="my-image.jpg"] {
     float: right;
 }
 
+#second-article {
+    float: left;
+}
+
 img[src="blog-image-1.png"] {
     border-radius: 80%;
     float: left;
     padding-top: 2%;
     margin-block: 0.3cm;
-}
-
-#second-article {
-    float: left;
 }
 
 img[src="blog-image-2.png"] {
@@ -92,11 +92,13 @@ img[src="blog-image-2.png"] {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#social-media {
+#social-media,
+#archives {
     color: #48BB78;
 }
 
-.social-media a {
+.social-media a,
+.archives a {
     color: #4299E1;
 }
 
@@ -104,14 +106,6 @@ img[src="blog-image-2.png"] {
     color: #000000;
     background-color: #E2E8F0;
     padding: 20px;
-}
-
-#archives {
-    color: #48BB78;
-}
-
-.archives a {
-    color: #4299E1;
 }
 
 footer {
